@@ -36,25 +36,25 @@ struct HomeView: View {
             .cornerRadius(10)
             .padding()
             
-//            VStack(alignment: .leading) {
-//               Text("Platform")
-//                    .font(.title3)
-//                    .fontWeight(.black)
-//                    .foregroundColor(.white)
-//                if presenter.isLoadingGenre {
-//                  loadingIndicator
-//                } else if presenter.isErrorGenre {
-//                  errorIndicator
-//                } else if presenter.genres.isEmpty {
-//                  emptyList
-//                } else {
-//                  content
-//                }
-//            }
-//            .padding()
-//            .background(Color(hex: 0xf5352ED))
-//            .cornerRadius(10)
-//            .padding()
+            VStack(alignment: .leading) {
+               Text("Platform")
+                    .font(.title3)
+                    .fontWeight(.black)
+                    .foregroundColor(.white)
+                if presenter.isLoadingGenre {
+                  loadingIndicator
+                } else if presenter.isErrorGenre {
+                  errorIndicator
+                } else if presenter.genres.isEmpty {
+                  emptyList
+                } else {
+                  content
+                }
+            }
+            .padding()
+            .background(Color(hex: 0xf5352ED))
+            .cornerRadius(10)
+            .padding()
             
             Text("List Games")
                 
