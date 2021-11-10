@@ -36,7 +36,6 @@ struct HomeView: View {
             .cornerRadius(10)
             .padding()
             
-<<<<<<< HEAD
 //            VStack(alignment: .leading) {
 //               Text("Platform")
 //                    .font(.title3)
@@ -53,30 +52,7 @@ struct HomeView: View {
 //                }
 //            }
 //            .padding()
-//            .background(Color(hex: 0xf5352ED))
-//            .cornerRadius(10)
-//            .padding()
-=======
-            VStack(alignment: .leading) {
-               Text("Platform")
-                    .font(.title3)
-                    .fontWeight(.black)
-                    .foregroundColor(.white)
-                if presenter.isLoadingGenre {
-                  loadingIndicator
-                } else if presenter.isErrorGenre {
-                  errorIndicator
-                } else if presenter.genres.isEmpty {
-                  emptyList
-                } else {
-                  content
-                }
-            }
-            .padding()
-            .background(Color(hex: 0xf5352ED))
-            .cornerRadius(10)
-            .padding()
->>>>>>> dce3af2f0e6a73ccc7534fb5213aa57eec66d0f1
+
             
             Text("List Games")
                 
