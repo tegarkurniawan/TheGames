@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: testing ... iPhone 12
-      run: xcodebuild test-without-building -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 12'
+      run: xcodebuild clean test -project TheGamesApps.xcodeproj -scheme TheGamesApps -destination "platform=iOS Simulator,name=iPhone 12 Pro Max"
