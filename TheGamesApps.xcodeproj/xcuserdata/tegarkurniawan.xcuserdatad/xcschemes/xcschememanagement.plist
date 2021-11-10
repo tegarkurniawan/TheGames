@@ -9,14 +9,22 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>2</integer>
+=======
+			<integer>3</integer>
+>>>>>>> dce3af2f0e6a73ccc7534fb5213aa57eec66d0f1
 		</dict>
 		<key>GettingStarted (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>3</integer>
+=======
+			<integer>4</integer>
+>>>>>>> dce3af2f0e6a73ccc7534fb5213aa57eec66d0f1
 		</dict>
 		<key>GettingStarted (Playground) 3.xcscheme</key>
 		<dict>
@@ -44,7 +52,11 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>1</integer>
+=======
+			<integer>0</integer>
+>>>>>>> dce3af2f0e6a73ccc7534fb5213aa57eec66d0f1
 		</dict>
 		<key>TheGamesApps.xcscheme_^#shared#^_</key>
 		<dict>
