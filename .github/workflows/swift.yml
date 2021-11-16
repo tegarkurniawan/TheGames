@@ -13,7 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build
-      run: |
-           xcodebuild clean build -project "TheGamesApps.xcodeproj" -scheme "TheGamesApps" -destination "platform=iOS Simulator,name=iPhone 12 Pro,OS=14.4"
+    - name: Build App
+      run: xcodebuild -project "TheGamesApps.xcodeproj" -scheme "TheGamesApps" -destination "generic/platform=iOS" -configuration Release build CODE_SIGNING_ALLOWED=NO
      
